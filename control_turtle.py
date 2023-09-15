@@ -15,7 +15,10 @@ def left_move():
 def right_move():
     turtle.setheading(0)
     turtle.forward(50)
-    
+
+def restart():
+    turtle.reset()
+
 turtle.onkey(front_move, 'w')
 turtle.onkey(back_move, 's')
 turtle.onkey(left_move, 'a')
