@@ -1,5 +1,6 @@
 import turtle
 
+
 def front_move():
     turtle.setheading(90)
     turtle.forward(50)
