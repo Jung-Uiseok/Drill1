@@ -12,3 +12,7 @@ def left_move():
     turtle.setheadin(180)
     turtle.forward(50)
     
+def right_move():
+    turtle.setheadin(0)
+    turtle.forward(50)
+    
